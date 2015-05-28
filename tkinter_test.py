@@ -21,7 +21,7 @@ mainframe.columnconfigure(0,weight=1)
 mainframe.rowconfigure(0,weight=1)
 
 roll = IntVar()
-diceFaces = ["one.png","two.png","three.png","four.png","five.png","six.png"]
+diceFaces = ["one.gif","two.gif","three.gif","four.gif","five.gif","six.gif"]
 #diceImage = PhotoImage()
 
 
