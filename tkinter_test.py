@@ -6,7 +6,7 @@ import random
 def rollDice(*args):
 	roll.set(random.randint(1,6))
 	#diceImage = PhotoImage(file="one.png")
-	diceImage = PhotoImage(file='C:\\Python34\\'+(diceFaces[roll.get()-1]))
+	diceImage = PhotoImage(file=(diceFaces[roll.get()-1]))
 	rollDisplay = ttk.Label(mainframe,image=diceImage)
 	rollDisplay.img = diceImage
 	rollDisplay.grid(column=2,row=2,sticky=(W,E))
