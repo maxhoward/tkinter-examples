@@ -1,8 +1,7 @@
 #this version works!
 from Tkinter import *
-from Tkinter import ttk
+import ttk
 import random
-
 
 def rollDice(*args):
 	roll.set(random.randint(1,6))
