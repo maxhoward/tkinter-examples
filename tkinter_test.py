@@ -1,6 +1,6 @@
 #this version works!
-from tkinter import *
-from tkinter import ttk
+from Tkinter import *
+from Tkinter import ttk
 import random
 
 
